@@ -1,4 +1,7 @@
 Follow Me
 =========
 
-A simple Twitter implementation in Spring MVC that I did as a coding challenge.
+A simple Twitter implementation in Spring MVC.
+
+This was my first project to learn Spring.
+
