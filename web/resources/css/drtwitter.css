@@ -1,0 +1,317 @@
+
+body {
+    background-image: url("/img/bg.jpg");
+    background-attachment:fixed;
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+img {
+    background-image: url('https://secure.gravatar.com/avatar/55e53703a3b191650e0782cfd14cdc30?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png')
+}
+
+/******************/
+/* Profile Header */
+/******************/
+
+div#profile-header {
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+div#profile-header div#name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div#profile-header div#username {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+div#profile-header div#location {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+div#profile-header div.counters {
+    padding: 5px 0 5px 2px;
+    margin: 0;
+}
+
+div#profile-header div#counters-widget {
+    float: right;
+    margin-right: 20px;
+}
+
+div#profile-header div#counters-widget hr {
+    color: #bfbfbf;
+    margin: 0;
+    padding: 0;
+}
+
+div#profile-header div.counters span.counter-number {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div#profile-header div.counters span.counter-msg {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #999999;
+}
+
+/******************/
+/* Tweets listing */
+/******************/
+
+div#tweets-feed {
+    width: 520px;
+    float: right;
+}
+
+ul.tweets-listing {
+    margin-left: 0;
+    list-style: none;
+}
+
+ul.tweets-listing li.tweet {
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    clear: both;
+}
+
+ul.tweets-listing li.tweet a.tweet-pic {
+    background-color: #0044cc;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+ul.tweets-listing li.tweet span.tweet-name a {
+    font-weight: bold;
+    color: black;
+}
+
+ul.tweets-listing li.tweet span.tweet-name a:hover {
+    color: #0088cc;
+}
+
+ul.tweets-listing li.tweet span.tweet-username {
+    color: #999999;
+}
+
+ul.tweets-listing li.tweet div.tweet-date {
+    float: right;
+    color: #999999;
+}
+
+ul.tweets-listing li.tweet div.tweet-content {
+    margin-top: 5px;
+}
+
+/**************/
+/* User Items */
+/**************/
+
+div#user-items {
+    background-color: #ffffff;
+    width: 200px;
+    float: left;
+}
+
+/***********/
+/* Content */
+/***********/
+
+div.rounded-widget {
+    background-color: #ffffff;
+}
+
+form input {
+    /*padding: 2px;*/
+    height: 30px;
+}
+
+/***************/
+/* tweets#show */
+/***************/
+
+div.the-tweet {
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+div.the-tweet div.header {
+
+}
+
+div.the-tweet div.the-tweet-pic {
+    background-color: #0044cc;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+div.the-tweet div.the-tweet-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.the-tweet div.the-tweet-username {
+    font-size: 14px;
+    color: #999999;
+}
+
+div.the-tweet p.the-tweet-content {
+    font-size: 22px;
+    clear: both;
+    line-height: 120%;
+}
+
+div.the-tweet p.the-tweet-date {
+
+}
+
+/**********************/
+/* LOGGED USER WIDGET */
+/**********************/
+
+div.logged-user-widget {
+    padding-top: 10px;
+    background-color: #f5f5f5;
+    width: 280px;
+    float: left;
+}
+
+div.logged-user-widget form {
+    padding: 10px;
+    text-align: center;
+}
+
+div.logged-user-widget div.user-info {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+div.logged-user-widget div.user-info img {
+    float: left;
+    margin-right: 8px;
+}
+
+div.logged-user-widget div.user-info div.content {
+    margin-left: 64px;
+}
+
+div.logged-user-widget p.name {
+    font-weight: bold;
+    color: #000000;
+    font-size: 14px;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+div.logged-user-widget p.profile-page, div.logged-user-widget a:hover.profile-page {
+    font-size: 13px;
+    color: #666666;
+}
+
+table.logged-user-widget {
+    width: 100%;
+}
+
+table.logged-user-widget td {
+    border-right: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    /*color: #dddddd;*/
+}
+
+table.logged-user-widget td a:hover {
+    text-decoration: none;
+}
+
+table.logged-user-widget td a span.count {
+    color: black;
+    font-weight: bold;
+}
+
+table.logged-user-widget td a:hover span.count {
+    color: #0088cc;
+}
+
+table.logged-user-widget td span.type {
+    margin-top: 4px;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+table.logged-user-widget td a:hover span.type {
+    color: #0088cc;
+}
+
+table.logged-user-widget td.last {
+    border-right: 0;
+}
+
+/**************/
+/* USERS LIST */
+/**************/
+
+ul.users-listing {
+    list-style: none;
+    margin: 0;
+}
+
+ul.users-listing li {
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #cccccc;
+}
+
+ul.users-listing li a.user-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+ul.users-listing li a.user-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul.users-listing li a:hover.user-name {
+    color: #0088cc;
+}
+
+ul.users-listing li a.username {
+    font-size: 12px;
+}
+
+ul.users-listing li a:hover.username {
+    color: #0088cc;
+}
+
+ul.users-listing li .follow {
+    float: right;
+}
+
+.form-error {
+    color: #ff0000;
+    display: block;
+}
